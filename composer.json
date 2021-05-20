@@ -1,0 +1,17 @@
+{
+    "name": "1maximuse/hello-composer",
+    "description": "Simple hello world Composer package.",
+    "type": "library",
+    "authors": [
+      {
+        "name": "Emmanuel Maximus",
+        "email": "geofanny.emmanuel@gmail.com"
+      }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "maximuse\\HelloWorld\\": "src/"
+        }
+    }
+  }
