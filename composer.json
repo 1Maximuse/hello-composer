@@ -8,6 +8,7 @@
         "email": "geofanny.emmanuel@gmail.com"
       }
     ],
+    "license": "MIT",
     "require": {},
     "autoload": {
         "psr-4": {
