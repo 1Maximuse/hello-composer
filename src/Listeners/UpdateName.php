@@ -4,7 +4,7 @@ namespace maximuse\HelloWorld\Listeners;
 
 use maximuse\HelloWorld\Events\ShowHelloWasCalled;
 
-class UpdatePostTitle
+class UpdateName
 {
     public function handle(ShowHelloWasCalled $event)
     {
