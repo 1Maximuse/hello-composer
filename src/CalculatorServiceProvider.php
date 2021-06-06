@@ -4,6 +4,7 @@ namespace maximuse\HelloWorld;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
+use maximuse\HelloWorld\Console\InstallHelloWorld;
 
 class CalculatorServiceProvider extends ServiceProvider
 {
