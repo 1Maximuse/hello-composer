@@ -25,7 +25,7 @@ class CalculatorServiceProvider extends ServiceProvider
             ]);
 
             $this->publishes([
-                __DIR__.'/../config/config.php', config_path('helloworld.php')
+                __DIR__.'/../config/config.php' => config_path('helloworld.php')
             ], 'config');
         }
 
