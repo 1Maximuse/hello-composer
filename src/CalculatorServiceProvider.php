@@ -5,6 +5,7 @@ namespace maximuse\HelloWorld;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use maximuse\HelloWorld\Console\InstallHelloWorld;
+use maximuse\HelloWorld\Providers\EventServiceProvider;
 
 class CalculatorServiceProvider extends ServiceProvider
 {
@@ -15,6 +16,7 @@ class CalculatorServiceProvider extends ServiceProvider
         });
 
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'helloworld');
+        $this->app->register(EventServiceProvider::class);
     }
 
     public function boot()
